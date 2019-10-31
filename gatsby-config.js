@@ -69,7 +69,7 @@ module.exports = {
         watchMode: true,       
         // a token with read permissions is required
         // if you have a private dataset
-        token: `${process.env.MY_SANITY_TOKEN}`,
+        token: "ski4UsyHIZ4TakvHCs4XV6z2F64qdbZrVLgZrBT6bTKdKPbFq30i9OPWhsNXuzvpIN96OoX2ceFr0wZUIew9rzAgK0qKRHjH1ihKCMi3g47vsQmfbCNCZ14KIq98GCL0KcIhdWy4K7Gsjuh347lakA3TDkCHka53DShlmT6jSkE0K3higiZ2",
       },
     },
     `gatsby-transformer-sharp`,
