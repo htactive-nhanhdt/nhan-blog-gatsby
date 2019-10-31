@@ -64,10 +64,12 @@ module.exports = {
       resolve: 'gatsby-source-sanity',
       options: {
         projectId: '2j10zfdg',
-        dataset: 'production',       
+        dataset: 'production',
+        overlayDrafts: true,
+        watchMode: true,       
         // a token with read permissions is required
         // if you have a private dataset
-     
+        token: `${process.env.MY_SANITY_TOKEN}`,
       },
     },
     `gatsby-transformer-sharp`,
